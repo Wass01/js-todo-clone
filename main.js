@@ -2,8 +2,9 @@
 // Rendiamo il tutto gradevole alla vista
 
 $(document).ready(function() {
-  var addList = $("#list li").clone();
-  $("#todoList").append(addList);
+  $("#btnAdd").click(function () {
+    var addList = $("#list li").clone();
+    $("#todoList").append(addList);
 
-
+  });
 });
