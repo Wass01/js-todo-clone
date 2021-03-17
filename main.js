@@ -3,8 +3,12 @@
 
 $(document).ready(function() {
   $("#btnAdd").click(function () {
-    var addList = $("#list li").clone();
-    $("#todoList").append(addList);
+    var lista = $("#list li").clone();
+    var inputList = $("#inputList").val();
+
+    lista.prepend(inputList);
+    $("#todoList").append(lista);
+
 
   });
 });
