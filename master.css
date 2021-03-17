@@ -18,3 +18,40 @@ h1{
 #list{
   display: none;
 }
+
+#todoList{
+  position: relative;
+  left: 320px;
+  top: 20px;
+
+}
+
+#inputList{
+  width: 400px;
+  margin-top: 40px;
+  padding: 10px;
+}
+
+#btnAdd{
+  width: 200px;
+  margin-top: 50px;
+  padding: 10px;
+  background-color: #ff7f00;
+  border: 1px solid #ff7f00;
+  color: #ffffff;
+}
+
+#btnAdd:hover{
+  background-color: #ffffff;
+  border: 1px solid #ff7f00;
+  color: #ff7f00;
+}
+
+.input-btn{
+  text-align: center;
+}
+
+p{
+  text-align: center;
+  margin-top: 30px;
+}

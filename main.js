@@ -26,5 +26,10 @@ $(document).ready(function() {
       lista.prepend(inputList);
       $("#todoList").append(lista);
     }
+
+    // rimuovo gli elementi della lista
+    $(lista).click(function () {
+      $(this).remove();
+    });
   });
 });
