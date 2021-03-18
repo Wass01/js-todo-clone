@@ -9,11 +9,6 @@ $(document).ready(function() {
     var lista = $("#list li").clone();
     var inputList = $("#inputList").val();
 
-    if (inputList) {
-      $("#inputList").val(" ");
-      lista.children("li span").text(inputList);
-    }
-
     lista.prepend(inputList);
     $("#todoList").append(lista);
 
@@ -32,11 +27,6 @@ $(document).ready(function() {
     if (e.which == 13) {
       lista.prepend(inputList);
       $("#todoList").append(lista);
-
-      if (inputList) {
-        $("#inputList").val(" ");
-        lista.children("li span").text(inputList);
-      }
     }
 
 
